@@ -99,3 +99,5 @@ const capitalState = [
 capitalState.forEach((item)=>{
     console.log(`The Capital of ${item.State} is ${item.Capital}`)
 })
+
+// forEach does not return any kind of values whether you write return statement or not it will not return any value . Therefore map, filter and reduce came into existence
